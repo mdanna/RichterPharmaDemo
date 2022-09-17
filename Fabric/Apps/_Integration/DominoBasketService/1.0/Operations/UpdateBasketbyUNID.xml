@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<service serviceGroup="" cachable="false" cacheduration="" description="" endpoint="default" groupType="" id="UpdateBasketbyUNID" passwordencrypted="false" security="authorized_app_user" type="jsonConnector" smscode="" smsenabled="false">
+    <service-config>
+        <config-param api-version="" appid="" name="preprocessorname" value=""/>
+        <config-param api-version="" appid="" name="postprocessorname" value=""/>
+        <config-param api-version="" appid="" name="preprocessorJS" value=""/>
+        <config-param api-version="" appid="" name="postprocessorJS" value=""/>
+        <config-param api-version="" appid="" name="preprocessorRules" value=""/>
+        <config-param api-version="" appid="" name="postprocessorRules" value=""/>
+        <config-param api-version="" appid="" name="kony_http_supported_methods" value="POST"/>
+        <config-param api-version="" appid="" name="endpointUrl" value="https://apps.hcl-showcase.com/voltmx/se_richter_pharma/$customerId.nsf/api/data/documents/unid/$unid"/>
+        <config-param api-version="" appid="" name="ignorehttpproxy" value="true"/>
+        <config-param api-version="" appid="" name="http.method" value="PATCH"/>
+        <config-param api-version="" appid="" name="dataObjectName" value=""/>
+        <config-param api-version="" appid="" name="sockettimeout" value=""/>
+        <config-param api-version="" appid="" name="responseEncoding" value="UTF-8"/>
+        <config-param api-version="" appid="" name="isembedxmlpresent" value="false"/>
+        <config-param api-version="" appid="" name="retrycount" value="0"/>
+        <config-param api-version="" appid="" name="jsonpath" value="true"/>
+    </service-config>
+    <service-input passthrough="false" isExtended="false">
+        <header datatype="" name="" passthrough="false" isExtended="false">
+            <param datatype="string" defaultvalue="Basic Vm9sdE1YLkRlbW9AaGNsLXNob3djYXNlLmNvbTpMTXB6U1FkZQ==" description="" encode="false" format="None" formatvalue="" name="Authorization" order="" paramOrder="0" parentOrder="0" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="" targetdatatype="" testvalue="Basic Vm9sdE1YLkRlbW9AaGNsLXNob3djYXNlLmNvbTpMTXB6U1FkZQ==" value="Basic Vm9sdE1YLkRlbW9AaGNsLXNob3djYXNlLmNvbTpMTXB6U1FkZQ==" isExtended="false">
+                <accessType></accessType>
+            </param>
+        </header>
+        <param datatype="string" defaultvalue="0002" description="" encode="true" format="None" formatvalue="" name="basketId" order="" paramOrder="1" parentOrder="-1" passnull="false" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="request" targetdatatype="java.lang.String" testvalue="0002" value="0002" isExtended="false">
+            <accessType></accessType>
+        </param>
+        <param datatype="string" defaultvalue="Warenkorb 2a" description="" encode="true" format="None" formatvalue="" name="basketText" order="" paramOrder="2" parentOrder="-1" passnull="false" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="request" targetdatatype="java.lang.String" testvalue="Warenkorb 2a" value="Warenkorb 2a" isExtended="false">
+            <accessType></accessType>
+        </param>
+        <param datatype="string" defaultvalue="0001" description="" encode="true" format="None" formatvalue="" name="customerId" order="" paramOrder="3" parentOrder="-1" passnull="false" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="request" targetdatatype="java.lang.String" testvalue="0001" value="0001" isExtended="false">
+            <accessType></accessType>
+        </param>
+        <param datatype="string" defaultvalue="16259D67EB63F9E9852588940042BF35" description="" encode="true" format="None" formatvalue="" name="unid" order="" paramOrder="4" parentOrder="-1" passnull="false" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="request" targetdatatype="java.lang.String" testvalue="16259D67EB63F9E9852588940042BF35" value="16259D67EB63F9E9852588940042BF35" isExtended="false">
+            <accessType></accessType>
+        </param>
+        <param datatype="string" defaultvalue="Some description" description="" encode="true" format="None" formatvalue="" name="basketDescription" order="" paramOrder="5" parentOrder="-1" passnull="false" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="request" targetdatatype="java.lang.String" testvalue="Some description" value="Some description" isExtended="false">
+            <accessType></accessType>
+        </param>
+        <template-param datatype="" defaultvalue="{&#10;    &quot;basketId&quot;: &quot;$basketId&quot;,&#10;    &quot;basketText&quot;: &quot;$basketText&quot;,&#10;    &quot;customerId&quot;: &quot;$customerId&quot;,&#10;    &quot;basketDescription&quot;: &quot;$basketDescription&quot;&#10;}" description="" encode="false" format="" formatvalue="" name="message" order="" paramOrder="0" parentOrder="0" sms-name="" src="" sourcevalue="" srcformatvalue="" target="" targetdatatype="" value="{&#10;    &quot;basketId&quot;: &quot;$basketId&quot;,&#10;    &quot;basketText&quot;: &quot;$basketText&quot;,&#10;    &quot;customerId&quot;: &quot;$customerId&quot;,&#10;    &quot;basketDescription&quot;: &quot;$basketDescription&quot;&#10;}" isExtended="false">
+            <accessType></accessType>
+        </template-param>
+        <stub-param value=""/>
+    </service-input>
+    <service-output passthrough="false" isExtended="false"/>
+</service>
