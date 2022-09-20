@@ -35,7 +35,7 @@
     },
     "canUpdateUI": true,
     "children": [
-        "cmpScanForm"
+        "ScanForm"
     ],
     "containerweight": 100,
     "controllerInfo": {

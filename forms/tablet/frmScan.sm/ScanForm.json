@@ -24,7 +24,7 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "s624219fff8d48afa46af829f26e6ecb",
+    "_skin_": "s873d4ca44344741a68e9481785e13d7",
     "_top_": {
         "type": "string",
         "value": "0dp"
@@ -36,11 +36,11 @@
     "canUpdateUI": true,
     "containerweight": 0,
     "data": {},
-    "id": "cmpScanForm",
+    "id": "ScanForm",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "a8d0a1a640aa47c28d7402c31f499427",
+    "kuid": "eddf3d2f26ad4204995750f5c46b3b4b",
     "masterType": 1,
     "name": "kony.ui.UserWidgetInstance",
     "parent": "frmScan",

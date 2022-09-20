@@ -47,7 +47,7 @@
     "canUpdateUI": true,
     "canvasWidth": 1200,
     "children": [
-        "cmpScanForm"
+        "ScanForm"
     ],
     "containerweight": 100,
     "controllerInfo": {
@@ -57,8 +57,8 @@
         }
     },
     "currentBreakpoint": {
-        "kuid": "b3",
-        "width": 640
+        "kuid": "b1",
+        "width": 1366
     },
     "currentLocale": "default",
     "desktopweb": {
