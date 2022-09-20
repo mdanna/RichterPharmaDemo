@@ -1,0 +1,23 @@
+{
+    "AS_NativeContainer_b161cf1b35124b9ea440bcefd7d9e4ca": {
+        "id": "AS_NativeContainer_b161cf1b35124b9ea440bcefd7d9e4ca",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmScan",
+            "type": "forms",
+            "platform": null,
+            "KUID": "a70f1cd51ef94e93af20e7e2b87a3a85"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onCleanup_bba890dc88ac4705bd2dd9be67c20c31",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.release(eventobject);",
+            "callbackType": null
+        }]
+    }
+}

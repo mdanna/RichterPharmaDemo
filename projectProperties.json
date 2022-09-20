@@ -391,7 +391,7 @@
     "keychainPassword": "",
     "kfAppInfo": {
         "a36d94e9-65a2-4c80-a043-5922f2951968": {
-            "appName": "StudioEngagement_Domino",
+            "appName": "StudioEngagement_RichterPharma",
             "baseId": "18f19f45-b687-4dac-b8cd-538b8a3076b0",
             "id": "18f19f45-b687-4dac-b8cd-538b8a3076b0",
             "version": "1.0"
@@ -711,6 +711,7 @@
     "support64bitandwear": "false",
     "supportX86Devices": "false",
     "supportX86Devicesandwear": "false",
+    "tabletstartupformkey": "jad161a03cbe4d28b5937a75cdb9576a",
     "tags": {
         "android": {
             "activity_child_tags": "",

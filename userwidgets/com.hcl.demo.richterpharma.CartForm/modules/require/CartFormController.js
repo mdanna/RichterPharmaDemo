@@ -19,7 +19,10 @@ define(function() {
           this.view.buttonScan.onClickButton = () => new voltmx.mvc.Navigation('frmScan').navigate();
 
           this.view.buttonSave.onClickButton = () => this.saveCart();
-          this.view.buttonDelete.onClickButton = () => this.deleteCart();
+          
+          this.view.buttonDelete.onClickButton = () => this.view.popup.isVisible = true;
+          
+          this.view.popup.onClickDelete = () => this.deleteCart();
 
           this.view.fieldSearch.onTextChange = () => {
             const searchText = this.view.fieldSearch.text.trim();

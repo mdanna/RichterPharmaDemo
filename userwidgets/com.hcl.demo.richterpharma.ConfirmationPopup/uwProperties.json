@@ -1,0 +1,107 @@
+{
+    "classname": "ConfirmationPopup",
+    "definitions": {
+        "apis": {
+            "custom": [],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "i71e24515ae74f9a9b4b210086e671c3",
+                    "paramList": [],
+                    "propertyIndex": 1,
+                    "propertyKey": "onClickDelete",
+                    "pw": {
+                        "displayName": "onClickDelete",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "a5c6db3cf69b406c876de97e0df5a9a7",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "ba72c0f1696f4490b63275a541627bca",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 1,
+                    "propertyKey": "icon",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "icon",
+                        "isHiddenInTool": false,
+                        "srcWidget": "lblIcon",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "id17fdc38ae24ffa883e039f882aee43"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "id1fa6fc7cf14dff9c809dca0b249f03",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 2,
+                    "propertyKey": "title",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "title",
+                        "isHiddenInTool": false,
+                        "srcWidget": "lblTitle",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "a385ade542974bda8c6ea0d4a6db5f28"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "d2ec6a2340494145832953f145827b70",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 3,
+                    "propertyKey": "message",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "message",
+                        "isHiddenInTool": false,
+                        "srcWidget": "lblMessage",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "e1e3f0a846d54d0bb183eaa6ae921623"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.hcl.demo.richterpharma",
+    "version": "1.0.0"
+}

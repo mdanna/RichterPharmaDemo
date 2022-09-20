@@ -15,6 +15,11 @@
         0
     ],
     "_percent_": true,
+    "_pxMenuIndex": [
+        2,
+        1,
+        4
+    ],
     "_skin_": "s26c2226d3c749909568fa91521acb9f",
     "_title_": null,
     "addWidgetsdone": false,
@@ -94,9 +99,7 @@
     "prevDevice": "desktopweb",
     "prevPlatform": "desktopweb",
     "responsiveData": {
-        "b3": {
-            "skin": "s755f3754e554b3692c5937ed4d432b0"
-        }
+        "b3": {}
     },
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

@@ -1,0 +1,23 @@
+{
+    "AS_NativeContainer_cbb98e8cd27846d7acc74677bb87f67d": {
+        "id": "AS_NativeContainer_cbb98e8cd27846d7acc74677bb87f67d",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmScan",
+            "type": "forms",
+            "platform": null,
+            "KUID": "a70f1cd51ef94e93af20e7e2b87a3a85"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onCreated_bc57f1052c304fbd9af4707708241e47",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "var self =this;\nvar options = {\n  isAccessModeAlways: true\n};\nvar result = kony.application.checkPermission(kony.os.RESOURCE_CAMERA, options);\nif(result.canRequestPermission) {\n  kony.application.requestPermission(kony.os.RESOURCE_CAMERA, function(res) {                \n    if (res.status === kony.application.PERMISSION_DENIED) {\n      alert(\"Please allow the Camera permissions in Settings App\");\n    }\n    else if (res.status === kony.application.PERMISSION_GRANTED) {\n      self.scan(eventobject);\n    }\n    else {\n      alert(\"Camera permissions has been restricted.\");\n    }\n  });\n}\nelse if (result.status === kony.application.PERMISSION_DENIED) {      \n  alert(\"Please allow the Camera permissions in Settings App\");\n} else if (result.status === kony.application.PERMISSION_GRANTED) {\n  self.scan(eventobject);\n}\nelse if (result.status === kony.application.PERMISSION_RESTRICTED){\n  alert(\"Camera permissions has been restricted.\");\n} ",
+            "callbackType": null
+        }]
+    }
+}

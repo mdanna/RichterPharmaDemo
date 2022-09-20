@@ -36,7 +36,8 @@
     "canUpdateUI": true,
     "children": [
         "cartHeader",
-        "flxContent"
+        "flxContent",
+        "popup"
     ],
     "clipbounds": true,
     "containerweight": 100,

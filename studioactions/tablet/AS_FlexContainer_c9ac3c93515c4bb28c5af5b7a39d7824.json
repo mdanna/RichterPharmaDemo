@@ -1,0 +1,23 @@
+{
+    "AS_FlexContainer_c9ac3c93515c4bb28c5af5b7a39d7824": {
+        "id": "AS_FlexContainer_c9ac3c93515c4bb28c5af5b7a39d7824",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmScan",
+            "type": "forms",
+            "platform": null,
+            "KUID": "a70f1cd51ef94e93af20e7e2b87a3a85"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_bdd5751bfb9145bd8dd11537045e8b00",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.flashControl();",
+            "callbackType": null
+        }]
+    }
+}
