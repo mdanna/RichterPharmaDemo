@@ -20,7 +20,10 @@ define(function() {
 
           this.view.buttonSave.onClickButton = () => this.saveCart();
           
-          this.view.buttonDelete.onClickButton = () => this.view.popup.isVisible = true;
+          this.view.buttonDelete.onClickButton = () => {
+            this.view.popup.title = `Delete Cart #${globals.currentBasketId}?`;
+            this.view.popup.isVisible = true;
+          };
           
           this.view.popup.onClickDelete = () => this.deleteCart();
 

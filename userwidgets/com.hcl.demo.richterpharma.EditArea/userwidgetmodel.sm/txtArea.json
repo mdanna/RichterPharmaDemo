@@ -21,8 +21,8 @@
         2,
         2
     ],
-    "_placeholder_": "Placeholder",
-    "_skin_": "sfe4011e0fc344648c75851bf8df64ad",
+    "_placeholder_": "Enter description",
+    "_skin_": "s256ff5ea1644964950bc53033991f89",
     "_text_": "",
     "_top_": {
         "type": "string",
@@ -42,10 +42,14 @@
     "containerheightmode": 1,
     "containerweight": 100,
     "contentalignment": 1,
-    "focusskin": "sfe4011e0fc344648c75851bf8df64ad",
+    "focusskin": "s256ff5ea1644964950bc53033991f89",
     "id": "txtArea",
     "info": null,
-    "iphone": {},
+    "iphone": {
+        "psp": {
+            "placeholderSkin": "sfe4011e0fc344648c75851bf8df64ad"
+        }
+    },
     "iscustomlayout": false,
     "isvisible": true,
     "keyboardstyle": "A",
@@ -56,7 +60,7 @@
     "numberofvisiblelines": 3,
     "parent": "flxTextArea",
     "pf": "userwidgetmodel",
-    "placeholderskin": "s60ee5e496454e6cba9c828cb3e94227",
+    "placeholderskin": "sfe4011e0fc344648c75851bf8df64ad",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "securetextentry": false,

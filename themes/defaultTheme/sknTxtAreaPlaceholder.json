@@ -1,6 +1,6 @@
 {
   "android": {
-    "font_name": "Inter-Regular",
+    "font_name": "Inter-Light",
     "font_size": 90,
     "isForked": false
   },
@@ -16,62 +16,65 @@
   "border_type": 0,
   "border_width": 0,
   "desktopweb": {
-    "font_name": "Inter-Regular",
+    "font_name": "Inter-Light",
     "font_size": 90,
     "isForked": false
   },
-  "font_color": "333333ff",
+  "fontSizeInPx": false,
+  "font_color": "999999ff",
   "font_name": "iphoneSystem",
   "font_size": 90,
+  "font_style": "normal",
+  "font_weight": "400",
   "ipad": {
-    "font_name": "Inter-Regular",
+    "font_name": "Inter-Light",
     "font_size": 90,
     "isForked": false
   },
   "iphone": {
-    "font_name": "Inter-Regular",
+    "font_name": "Inter-Light",
     "font_size": 90,
     "isForked": false
   },
   "isDefaultSkin": false,
   "kiosk": {
-    "font_name": "Inter-Regular",
+    "font_name": "Inter-Light",
     "font_size": 90,
     "isForked": false
   },
-  "kuid": "s256ff5ea1644964950bc53033991f89",
+  "kuid": "sfe4011e0fc344648c75851bf8df64ad",
   "spaan": {
-    "font_name": "Inter-Regular",
+    "font_name": "Inter-Light",
     "font_size": 90,
     "isForked": false
   },
   "spaandroidtablet": {
-    "font_name": "Inter-Regular",
+    "font_name": "Inter-Light",
     "font_size": 90,
     "isForked": false
   },
   "spaip": {
-    "font_name": "Inter-Regular",
+    "font_name": "Inter-Light",
     "font_size": 90,
     "isForked": false
   },
   "spaipad": {
-    "font_name": "Inter-Regular",
+    "font_name": "Inter-Light",
     "font_size": 90,
     "isForked": false
   },
   "spawindowstablet": {
-    "font_name": "Inter-Regular",
+    "font_name": "Inter-Light",
     "font_size": 90,
     "isForked": false
   },
   "spawinphone8": {
-    "font_name": "Inter-Regular",
+    "font_name": "Inter-Light",
     "font_size": 90,
     "isForked": false
   },
   "tabrcandroid": {
-    "font_name": "Inter-Regular",
+    "font_name": "Inter-Light",
     "font_size": 90,
     "isForked": false
   },
@@ -82,12 +85,12 @@
     "isForked": false
   },
   "windows8": {
-    "font_name": "Inter-Regular",
+    "font_name": "Inter-Light",
     "font_size": 90,
     "isForked": false
   },
   "winphone8": {
-    "font_name": "Inter-Regular",
+    "font_name": "Inter-Light",
     "font_size": 90,
     "isForked": false
   }
