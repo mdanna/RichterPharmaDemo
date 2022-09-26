@@ -1,0 +1,61 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "15%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s624219fff8d48afa46af829f26e6ecb",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 0,
+    "data": {
+        "iconLeft": "9",
+        "iconRight": "  ",
+        "showDivider": false,
+        "skinIcon": "s576cc1ce44d400e8e56518ad20553c5",
+        "skinTitle": "s9035b71ab114f4ead78ac0f4be5231c",
+        "text": "Scan New Product"
+    },
+    "id": "scanHeader",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "j1853a62f4b04392bde7f36fd4e9466f",
+    "masterType": 1,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "ScanNewForm",
+    "pf": "userwidgetmodel",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "sourceUserWidget": "d8a85bd4ee2f4be2892c35824098633e",
+    "wType": "UserWidgetInstance",
+    "zindex": 1
+}

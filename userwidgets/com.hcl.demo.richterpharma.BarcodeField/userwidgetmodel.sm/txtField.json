@@ -1,0 +1,78 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizTextBox2",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        3,
+        0,
+        10,
+        0
+    ],
+    "_placeholder_": "Enter or Scan Barcode",
+    "_skin_": "s469a7a6137b4fb5bd79c241a6ff7035",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autocapitalize": "none",
+    "autocomplete": false,
+    "autocorrect": false,
+    "autofilter": false,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerheight": "",
+    "containerheightmode": 1,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "focusskin": "sa8535167ba540439a6e9455f5aefa8f",
+    "id": "txtField",
+    "info": null,
+    "inputAccessoryViewType": 2,
+    "iphone": {
+        "psp": {
+            "inputAccessoryViewType": 2
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "keyboardtype": "A",
+    "kuid": "i2a7c5a8780348318306f4fb8c87bf26",
+    "mode": "A",
+    "name": "kony.ui.TextBox2",
+    "parent": "flxBarcode",
+    "pf": "userwidgetmodel",
+    "placeholderskin": "s1bd2308e0d34fe28ce96272eb56bc4e",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "securetextentry": false,
+    "textinputmode": "A",
+    "tooltip": "",
+    "viewtype": "default",
+    "wType": "TextField",
+    "zindex": 1
+}

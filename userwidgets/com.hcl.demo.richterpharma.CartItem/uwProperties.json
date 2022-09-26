@@ -70,12 +70,12 @@
                         "dependentKeysKUIDs": null,
                         "displayName": "numItems",
                         "isHiddenInTool": false,
-                        "srcWidget": "lblNumItems",
+                        "srcWidget": "txtNumItems",
                         "type": "string",
                         "uiRepresentation": "Label-Textbox",
-                        "wType": "Label"
+                        "wType": "TextField"
                     },
-                    "srcWgtKUID": "de9e18b368884521aba4b7685b6b09d8"
+                    "srcWgtKUID": "d448685fc5b14509827fa689e68477ae"
                 },
                 {
                     "access": "Enable",
@@ -133,12 +133,26 @@
                         "dependentKeysKUIDs": null,
                         "displayName": "barcode",
                         "isHiddenInTool": false,
-                        "srcWidget": "lblScanId",
+                        "srcWidget": "lblBarcode",
                         "type": "string",
                         "uiRepresentation": "Label-Textbox",
                         "wType": "Label"
                     },
                     "srcWgtKUID": "def40baeb5154bb8988302d636216a91"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "originalPropertyKey": "focusSkin",
+                    "propertyIndex": 9,
+                    "propertyKey": "focusSkin1",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "displayName": "Focus",
+                        "wType": "TextField"
+                    },
+                    "srcWgtKUID": "d448685fc5b14509827fa689e68477ae"
                 }
             ]
         },

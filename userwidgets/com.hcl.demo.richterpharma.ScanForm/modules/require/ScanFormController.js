@@ -4,11 +4,11 @@ define(function() {
     constructor: function(baseConfig, layoutConfig, pspConfig) {
       this.view.preShow = () => {
         if(!this.initDone){
-          this.view.scanHeader.onClickLeft = () => new voltmx.mvc.Navigation('frmCart').navigate();
+          this.view.scanHeader.onClickLeft = () => this.goBack();
 
           this.view.barcodeqrscanner.afterScan = (text) => {
-            const article = Object.values(data.articles).find((item) => item.basketItemBarcode === text);
-            const currentBasket = data.baskets.find((b) => b.basketId === globals.currentBasketId);
+            const article = Object.values(richterData.basketArticles).find((item) => item.basketItemBarcode === text);
+            const currentBasket = richterData.baskets.find((b) => b.basketId === globals.currentBasketId);
             if(article){
               const articleId = article.basketItemID;
               globals.currentArticleId = articleId;

@@ -36,6 +36,7 @@
     "canUpdateUI": true,
     "containerweight": 0,
     "data": {
+        "iconLeft": "4",
         "iconRight": "a",
         "text": "Cart List View"
     },

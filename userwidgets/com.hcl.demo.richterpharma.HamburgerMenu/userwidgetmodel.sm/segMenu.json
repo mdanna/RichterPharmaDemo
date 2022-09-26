@@ -1,0 +1,269 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "_bounces_": false,
+    "_data_": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "75%"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "3%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "85%"
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "counter": "03",
+    "desktop": {
+        "_data_": [
+            {
+                "item": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Carts"
+                },
+                "key": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "carts"
+                }
+            },
+            {
+                "item": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Articles"
+                },
+                "key": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "articles"
+                }
+            },
+            {
+                "item": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "User Profile"
+                },
+                "key": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "profile"
+                }
+            },
+            {
+                "item": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Logout"
+                },
+                "key": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "logout"
+                }
+            }
+        ],
+        "rowTemplateId": "d49c9c8306ce433d8ddc8d024e5d4fa8",
+        "rowtemplate": "CopyflxMenuItem0i16e7348fbad44",
+        "widgetdatamap": {
+            "flxMenuItem": "flxMenuItem",
+            "item": "item",
+            "key": "key"
+        }
+    },
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "segMenu",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "bounces": false,
+            "indicator": "none"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "h7ef23f00b7e4267a26ae5e5f16fc222",
+    "masterdata": {},
+    "mobile": {
+        "_data_": [
+            {
+                "item": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Carts"
+                },
+                "key": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "carts"
+                }
+            },
+            {
+                "item": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Articles"
+                },
+                "key": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "articles"
+                }
+            },
+            {
+                "item": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "User Profile"
+                },
+                "key": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "profile"
+                }
+            },
+            {
+                "item": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Logout"
+                },
+                "key": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "logout"
+                }
+            }
+        ],
+        "rowTemplateId": "e765ac3d6bdc445089d107e7ce96138b",
+        "rowtemplate": "Flex0d3a664e0893142",
+        "widgetdatamap": {
+            "flxMenuItem": "flxMenuItem",
+            "item": "item",
+            "key": "key"
+        }
+    },
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flxMenu",
+    "pf": "userwidgetmodel",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowcounter": 3,
+    "rowfocusskin": "sdc3c91cb5d347ed91d97285d782eea6",
+    "rowskin": "s6a0c3f8410740ab9734bc8ffc8ebb45",
+    "rowtemplate": null,
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionheaderskin": "saa4259449dd4db2895586804910e620",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorcolor": "aaaaaa00",
+    "separatorrequired": false,
+    "separatorthickness": 1,
+    "showscrollbars": false,
+    "tablet": {
+        "_data_": [
+            {
+                "item": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Carts"
+                },
+                "key": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "carts"
+                }
+            },
+            {
+                "item": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Articles"
+                },
+                "key": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "articles"
+                }
+            },
+            {
+                "item": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "User Profile"
+                },
+                "key": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "profile"
+                }
+            },
+            {
+                "item": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Logout"
+                },
+                "key": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "logout"
+                }
+            }
+        ],
+        "rowTemplateId": "bf9dcc8f5b4e4c498985a9c43ff32ef0",
+        "rowtemplate": "flxMenuItem",
+        "widgetdatamap": {
+            "flxMenuItem": "flxMenuItem",
+            "item": "item",
+            "key": "key"
+        }
+    },
+    "viewtype": "tableview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "flxMenuItem": "flxMenuItem",
+        "item": "item",
+        "key": "key"
+    },
+    "zindex": 1
+}

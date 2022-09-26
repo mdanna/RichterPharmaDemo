@@ -7,8 +7,8 @@ define(function() {
         this.view.txtSearch.text = '';
 
         voltmx.application.showLoadingScreen(null, 'Loading data...', constants.LOADING_SCREEN_POSITION_FULL_SCREEN, true, false, {});
-        data.load().then(() => {
-          this.baskets = [...data.baskets];
+        richterData.loadBaskets().then(() => {
+          this.baskets = [...richterData.baskets];
           this.loadCartList();
           voltmx.application.dismissLoadingScreen();
         }).catch((error) => {
@@ -20,16 +20,34 @@ define(function() {
           this.view.txtSearch.onTextChange = () => {
             const searchText = this.view.txtSearch.text.trim();
             if(searchText){
-              this.baskets = data.baskets.filter((basket) => {
+              this.baskets = richterData.baskets.filter((basket) => {
                 return(basket.basketId.includes(searchText) || basket.basketText.includes(searchText) ||
                        basket.basketDescription.includes(searchText));
               });
             } else {
-              this.baskets = [...data.baskets];
+              this.baskets = [...richterData.baskets];
             }
             this.loadCartList();
           };
+          
+          this.view.cartListHeader.onClickLeft = () => this.view.cmpHamburgerMenu.toggle(true);
+          
           this.view.cartListHeader.onClickRight = () => new voltmx.mvc.Navigation('frmNewCart').navigate();
+          
+          this.view.cmpHamburgerMenu.onItemSelected = (key) => {
+            switch(key){
+              case 'articles':
+                new voltmx.mvc.Navigation('frmArticles').navigate();
+                break;
+              case 'carts':
+                break;
+              case 'logout':
+                new voltmx.mvc.Navigation('frmLogin').navigate();
+                break;
+              default:
+                break;
+            }
+          };
         }
 
       };

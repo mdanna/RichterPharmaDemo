@@ -40,7 +40,7 @@ define(function() {
             unid: response.responseList[0].unid,
             articles: []
           };
-          data.baskets.push(basket);
+          richterData.baskets.push(basket);
           globals.currentBasketId = basketId;
           voltmx.application.dismissLoadingScreen();
           new voltmx.mvc.Navigation('frmCartList').navigate();
