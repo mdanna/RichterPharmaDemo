@@ -20,7 +20,7 @@ define(function() {
     initGettersSetters() {},
 
     saveCart(){
-      voltmx.application.showLoadingScreen(null, 'Creating cart...', constants.LOADING_SCREEN_POSITION_FULL_SCREEN, true, false, {});
+      voltmx.application.showLoadingScreen('sknLoadingScreen', 'Working...', constants.LOADING_SCREEN_POSITION_FULL_SCREEN, true, false, {});
       const dominoBasketService = VMXFoundry.getIntegrationService('DominoBasketService');
       const basketId = this.view.fieldId.text.trim();
       const basketText = this.view.fieldName.text.trim();
@@ -45,11 +45,11 @@ define(function() {
           voltmx.application.dismissLoadingScreen();
           new voltmx.mvc.Navigation('frmCartList').navigate();
         }).catch((err) => {
-          alert(JSON.stringify(err));
+          this.view.popupAlert.show('Error while creating the cart.');
           voltmx.application.dismissLoadingScreen();
         });
       }).catch((err) => {
-        alert(JSON.stringify(err));
+        this.view.popupAlert.show('Error during cart creation.');
         voltmx.application.dismissLoadingScreen();
       });
     }

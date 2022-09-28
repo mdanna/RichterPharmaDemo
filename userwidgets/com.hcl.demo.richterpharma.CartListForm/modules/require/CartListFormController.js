@@ -6,14 +6,14 @@ define(function() {
       this.view.preShow = () => {
         this.view.txtSearch.text = '';
 
-        voltmx.application.showLoadingScreen(null, 'Loading data...', constants.LOADING_SCREEN_POSITION_FULL_SCREEN, true, false, {});
+        voltmx.application.showLoadingScreen('sknLoadingScreen', 'Loading...', constants.LOADING_SCREEN_POSITION_FULL_SCREEN, true, false, {});
         richterData.loadBaskets().then(() => {
           this.baskets = [...richterData.baskets];
           this.loadCartList();
           voltmx.application.dismissLoadingScreen();
         }).catch((error) => {
           voltmx.application.dismissLoadingScreen();
-          alert(JSON.stringify(error));
+          this.view.popupAlert.show(`Error while loading data.`);
         });
 
         if(!this.initDone){

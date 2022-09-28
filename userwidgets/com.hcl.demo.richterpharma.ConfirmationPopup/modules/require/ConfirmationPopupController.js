@@ -6,8 +6,8 @@ define(function() {
         this.view.isVisible = false;
         if(!this.initDone){
           this.view.flxBackground.onClick = () => this.view.isVisible = false;
-          this.view.lblCancel.onTouchEnd = () => this.view.isVisible = false;
-          this.view.lblDelete.onTouchEnd = () => this.onClickDelete();
+          this.view.flxCancel.onClick = () => this.view.isVisible = false;
+          this.view.flxDelete.onClick = () => this.onClickDelete();
           this.initDone = true;
         }
       };

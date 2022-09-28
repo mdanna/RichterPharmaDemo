@@ -111,7 +111,7 @@
     "info": null,
     "ipad": {
         "psp": {
-            "indicator": "rowselect"
+            "indicator": "none"
         }
     },
     "iphone": {

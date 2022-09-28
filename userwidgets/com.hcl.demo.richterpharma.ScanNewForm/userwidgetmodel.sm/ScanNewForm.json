@@ -37,7 +37,8 @@
     "children": [
         "scanHeader",
         "lblInfo",
-        "barcodeqrscanner"
+        "barcodeqrscanner",
+        "popupAlert"
     ],
     "clipbounds": true,
     "containerweight": 100,

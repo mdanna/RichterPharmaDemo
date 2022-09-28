@@ -37,7 +37,8 @@
     "children": [
         "cmpHamburgerMenu",
         "cartListHeader",
-        "flxContent"
+        "flxContent",
+        "popupAlert"
     ],
     "clipbounds": true,
     "containerweight": 100,

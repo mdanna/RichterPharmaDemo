@@ -85,7 +85,8 @@ define(['./Inherits', './NativeController', './KonyLogger'], function(Inherits, 
      * @description: API called after timer finishes
      */
   NativeControllerAndroid.prototype.timerCallback = function() {
-    alert("Invalid Barcode!!!");
+    eventManager.publish(globals.EVT_SCAN_ERROR, 'Invalid Barcode.');
+    //alert("Invalid Barcode!!!");
   };
   /**
      * @function resumeScan

@@ -6,7 +6,7 @@ define(function() {
       this.view.preShow = () => {
         this.view.fieldSearch.text = '';
 
-        voltmx.application.showLoadingScreen(null, 'Loading articles...', constants.LOADING_SCREEN_POSITION_FULL_SCREEN, true, false, {});
+        voltmx.application.showLoadingScreen('sknLoadingScreen', 'Loading...', constants.LOADING_SCREEN_POSITION_FULL_SCREEN, true, false, {});
         richterData.loadArticles().then(() => {
           this.articles = [...richterData.articles];
           this.articles.sort((a, b) => a.text > b.text ? 1 : -1);
@@ -14,7 +14,7 @@ define(function() {
           voltmx.application.dismissLoadingScreen();
         }).catch((error) => {
           voltmx.application.dismissLoadingScreen();
-          alert(JSON.stringify(error));
+          this.view.popupAlert.show('Error while loading articles.');
         });
 
         if(!this.initDone){
@@ -31,15 +31,15 @@ define(function() {
             }
             this.loadArticles();
           };
-          
+
           this.view.articlesHeader.onClickLeft = () => this.view.cmpHamburgerMenu.toggle(true);
-          
+
           this.view.buttonAdd.onClickButton = () => {
             globals.currentArticleId = null;
             globals.currentBarcode = null;
             new voltmx.mvc.Navigation('frmArticleDetails').navigate();
           };
-          
+
           this.view.cmpHamburgerMenu.onItemSelected = (key) => {
             switch(key){
               case 'articles':

@@ -42,7 +42,8 @@ define(['./Inherits', './NativeController', './KonyLogger'], function(Inherits, 
       }
     }
     catch (e) {
-      alert(e);
+      eventManager.publish(globals.EVT_SCAN_ERROR, 'Error while scanning the Barcode.');
+      //alert(e);
       throw new Error("Exception in Scanning the code:" + e);
     }
     konymp.logger.trace("-- Exiting scan in NativeControllerIOS-- ", konymp.logger.FUNCTION_EXIT);
@@ -53,7 +54,8 @@ define(['./Inherits', './NativeController', './KonyLogger'], function(Inherits, 
      * @description: API called after timer finishes
      */
   NativeControllerIOS.prototype.timerCallback = function(){
-    alert("Invalid Barcode!!!");
+    eventManager.publish(globals.EVT_SCAN_ERROR, 'Invalid Barcode.');
+    //alert("Invalid Barcode!!!");
   };
   /**
    * @function

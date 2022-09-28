@@ -2,7 +2,7 @@
     "DNDConfig": null,
     "_height_": {
         "type": "string",
-        "value": "85%"
+        "value": "100%"
     },
     "_left_": {
         "type": "string",
@@ -25,36 +25,30 @@
     "_skin_": "s624219fff8d48afa46af829f26e6ecb",
     "_top_": {
         "type": "string",
-        "value": "15%"
+        "value": "0dp"
     },
     "_width_": {
         "type": "string",
-        "value": "90%"
+        "value": "100%"
     },
     "allboxes": [],
     "autogrowmode": 0,
     "canUpdateUI": true,
-    "centerx": {
-        "type": "string",
-        "value": "50.00%"
-    },
     "children": [
-        "fieldId",
-        "fieldName",
-        "fieldDescription",
-        "flxButtons"
+        "flxBackground",
+        "flxPopup"
     ],
     "clipbounds": true,
     "containerweight": 100,
     "enablescrolling": true,
-    "id": "flxContent",
+    "id": "SimpleAlert",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "j96b9ebc53c9489281ba712e7234d0d6",
-    "layouttype": 4,
+    "kuid": "f257d91404b549be9eeeb2f81a9e0d3e",
+    "layouttype": 2,
     "name": "kony.ui.FlexContainer",
-    "parent": "NewCartForm",
+    "parent": "userwidgetmodel",
     "pf": "userwidgetmodel",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
@@ -62,5 +56,6 @@
     "snapgridsize": 10,
     "snaptogrid": true,
     "wType": "FlexContainer",
-    "widgetalignment": 1
+    "widgetalignment": 1,
+    "zindex": 2000
 }

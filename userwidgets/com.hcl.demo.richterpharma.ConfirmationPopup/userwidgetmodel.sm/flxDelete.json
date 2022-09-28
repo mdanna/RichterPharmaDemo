@@ -2,7 +2,7 @@
     "DNDConfig": null,
     "_height_": {
         "type": "string",
-        "value": "85%"
+        "value": "100%"
     },
     "_left_": {
         "type": "string",
@@ -25,36 +25,29 @@
     "_skin_": "s624219fff8d48afa46af829f26e6ecb",
     "_top_": {
         "type": "string",
-        "value": "15%"
+        "value": "0dp"
     },
     "_width_": {
         "type": "string",
-        "value": "90%"
+        "value": "80dp"
     },
     "allboxes": [],
     "autogrowmode": 0,
     "canUpdateUI": true,
-    "centerx": {
-        "type": "string",
-        "value": "50.00%"
-    },
     "children": [
-        "fieldId",
-        "fieldName",
-        "fieldDescription",
-        "flxButtons"
+        "lblDelete"
     ],
     "clipbounds": true,
     "containerweight": 100,
     "enablescrolling": true,
-    "id": "flxContent",
+    "id": "flxDelete",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "j96b9ebc53c9489281ba712e7234d0d6",
-    "layouttype": 4,
+    "kuid": "gf3a684c2351401999d1a03ef1d06fb4",
+    "layouttype": 3,
     "name": "kony.ui.FlexContainer",
-    "parent": "NewCartForm",
+    "parent": "flxButtons",
     "pf": "userwidgetmodel",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

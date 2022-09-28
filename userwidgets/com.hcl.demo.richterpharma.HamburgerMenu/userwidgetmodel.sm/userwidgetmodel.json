@@ -37,7 +37,7 @@
     ],
     "containerweight": 100,
     "currentLocale": "default",
-    "device": "iPad3",
+    "device": "iPhone13",
     "displayorientation": 3,
     "enabledforidletimeout": false,
     "id": "userwidgetmodel",
@@ -58,7 +58,7 @@
         "formTransition": "None"
     },
     "paddinginpixel": false,
-    "platform": "ipad",
+    "platform": "iphone",
     "prevDevice": "iPad3",
     "prevPlatform": "ipad",
     "retaincontentalignment": false,

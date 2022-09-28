@@ -57,7 +57,7 @@
         "formTransition": "None"
     },
     "paddinginpixel": false,
-    "platform": "iphone",
+    "platform": "spaip",
     "prevDevice": "iPhone13",
     "prevPlatform": "iphone",
     "retaincontentalignment": false,

@@ -27,7 +27,7 @@
     "_skin_": "s624219fff8d48afa46af829f26e6ecb",
     "_top_": {
         "type": "string",
-        "value": "-100%"
+        "value": "0%"
     },
     "_width_": {
         "type": "string",
@@ -43,7 +43,7 @@
     "id": "popup",
     "info": null,
     "iscustomlayout": false,
-    "isvisible": true,
+    "isvisible": false,
     "kuid": "g523df3c26864540b538b88313d42d1e",
     "masterType": 1,
     "name": "kony.ui.UserWidgetInstance",

@@ -37,7 +37,8 @@
     "children": [
         "articleDetailsHeader",
         "flxContent",
-        "popup"
+        "popup",
+        "popupAlert"
     ],
     "clipbounds": true,
     "containerweight": 100,
@@ -47,7 +48,7 @@
     "iscustomlayout": false,
     "isvisible": true,
     "kuid": "e7564523aa3f468297441dd2d6640539",
-    "layouttype": 4,
+    "layouttype": 2,
     "name": "kony.ui.FlexContainer",
     "parent": "userwidgetmodel",
     "pf": "userwidgetmodel",

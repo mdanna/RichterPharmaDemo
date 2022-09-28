@@ -2,8 +2,12 @@
     "@class": "com.kony.gen.viz.model.component.KVizLabel",
     "DNDConfig": null,
     "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
         "type": "string",
-        "value": "100%"
+        "value": "0dp"
     },
     "_margin_": [
         1,
@@ -17,19 +21,15 @@
         0,
         0
     ],
-    "_right_": {
-        "type": "number",
-        "value": "0"
-    },
-    "_skin_": "sb4a7a93155b4ffa9c02cf1dc1170a67",
-    "_text_": "Cancel",
+    "_skin_": "se2c107e9e1344a3901585e0753b5a06",
+    "_text_": "This is a message",
     "_top_": {
         "type": "string",
         "value": "0dp"
     },
     "_width_": {
         "type": "string",
-        "value": "100%"
+        "value": "80%"
     },
     "_wrapping_": 2,
     "android": {
@@ -39,9 +39,13 @@
         }
     },
     "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
     "containerweight": 100,
     "contentalignment": 5,
-    "id": "lblCancel",
+    "id": "lblMessage",
     "info": null,
     "ipad": {
         "psp": {
@@ -55,9 +59,9 @@
     },
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "j7948b30458d45a0aa5383f4a3f38899",
+    "kuid": "ecb6aac4482c4c379cb1259a4cf48693",
     "name": "kony.ui.Label",
-    "parent": "flxCancel",
+    "parent": "flxMessage",
     "pf": "userwidgetmodel",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

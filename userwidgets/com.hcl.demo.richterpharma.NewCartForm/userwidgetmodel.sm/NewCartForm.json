@@ -36,7 +36,8 @@
     "canUpdateUI": true,
     "children": [
         "cartHeader",
-        "flxContent"
+        "flxContent",
+        "popupAlert"
     ],
     "clipbounds": true,
     "containerweight": 100,
@@ -46,7 +47,7 @@
     "iscustomlayout": false,
     "isvisible": true,
     "kuid": "b124b48be75c453db67bccaaa66722cc",
-    "layouttype": 4,
+    "layouttype": 2,
     "name": "kony.ui.FlexContainer",
     "parent": "userwidgetmodel",
     "pf": "userwidgetmodel",

@@ -4,7 +4,11 @@
     "_base64_": null,
     "_height_": {
         "type": "string",
-        "value": "7%"
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "number",
+        "value": "0"
     },
     "_margin_": [
         0,
@@ -26,13 +30,9 @@
     },
     "_width_": {
         "type": "string",
-        "value": "85%"
+        "value": "75%"
     },
     "canUpdateUI": true,
-    "centerx": {
-        "type": "string",
-        "value": "50%"
-    },
     "containerweight": 100,
     "id": "imgLogo",
     "imagescalemode": 1,
@@ -41,7 +41,7 @@
     "isvisible": true,
     "kuid": "gd3f7a6e76ca4f029c69fbcb9ab597e2",
     "name": "kony.ui.Image2",
-    "parent": "flxMenu",
+    "parent": "FlexGroup0d8bec59fe3b745",
     "pf": "userwidgetmodel",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

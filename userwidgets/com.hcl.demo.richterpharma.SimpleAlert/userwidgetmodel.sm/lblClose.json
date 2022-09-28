@@ -17,19 +17,15 @@
         0,
         0
     ],
-    "_right_": {
-        "type": "number",
-        "value": "0"
-    },
     "_skin_": "sb4a7a93155b4ffa9c02cf1dc1170a67",
-    "_text_": "Cancel",
+    "_text_": "Close",
     "_top_": {
         "type": "string",
         "value": "0dp"
     },
     "_width_": {
         "type": "string",
-        "value": "100%"
+        "value": "80dp"
     },
     "_wrapping_": 2,
     "android": {
@@ -39,9 +35,13 @@
         }
     },
     "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
     "containerweight": 100,
     "contentalignment": 5,
-    "id": "lblCancel",
+    "id": "lblClose",
     "info": null,
     "ipad": {
         "psp": {
@@ -55,9 +55,9 @@
     },
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "j7948b30458d45a0aa5383f4a3f38899",
+    "kuid": "fd26aeec458545ac887f5c7131ab9312",
     "name": "kony.ui.Label",
-    "parent": "flxCancel",
+    "parent": "flxButtons",
     "pf": "userwidgetmodel",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

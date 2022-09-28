@@ -3,6 +3,8 @@ const richterData = {
   articles: [],
   basketArticles: {},
   loadBaskets(){
+    richterData.basketArticles = {};
+    richterData.baskets = [];
     const promise = new Promise((resolve, reject) => {
       const dominoBasketService = VMXFoundry.getIntegrationService('DominoBasketService');
       promiseUtils.promisifyOperation(dominoBasketService, 'GetAllBasketsByCustomerId', {}, {}).then((response) => {

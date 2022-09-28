@@ -25,7 +25,10 @@ define(function() {
             this.view.popup.isVisible = true;
           };
 
-          this.view.popup.onClickDelete = () => this.deleteCart();
+          this.view.popup.onClickDelete = () => {
+            this.view.popup.isVisible = false;
+            this.deleteCart();
+          };
 
           this.view.fieldSearch.onTextChange = () => {
             const searchText = this.view.fieldSearch.text.trim();
@@ -70,7 +73,7 @@ define(function() {
 
     saveCart(){
       const currentBasket = richterData.baskets.find((b) => b.basketId === globals.currentBasketId);
-      voltmx.application.showLoadingScreen(null, 'Saving cart...', constants.LOADING_SCREEN_POSITION_FULL_SCREEN, true, false, {});
+      voltmx.application.showLoadingScreen('sknLoadingScreen', 'Working...', constants.LOADING_SCREEN_POSITION_FULL_SCREEN, true, false, {});
       const dominoBasketService = VMXFoundry.getIntegrationService('DominoBasketService');
       promiseUtils.promisifyOperation(dominoBasketService, 'UpdateBasketByUNID', null, {
         basketId: globals.currentBasketId,
@@ -125,11 +128,11 @@ define(function() {
               this.goBack(currentBasket);
             }).catch((error) => {
               voltmx.application.dismissLoadingScreen();
-              alert('Unable to update articles count');
+              this.view.popupAlert.show('Unable to update articles count');
             });
           }).catch((err) => {
             voltmx.application.dismissLoadingScreen();
-            alert('Unable to retrieve articles to update');
+            this.view.popupAlert.show('Unable to retrieve articles to update');
           });
 
         } else {
@@ -137,8 +140,8 @@ define(function() {
         }
 
       }).catch((err) => {
-        alert(JSON.stringify(err));
         voltmx.application.dismissLoadingScreen();
+		this.view.popupAlert.show('Error while saving cart.');      
       });
     },
 
@@ -151,7 +154,7 @@ define(function() {
 
     deleteCart(){
       const currentBasket = richterData.baskets.find((b) => b.basketId === globals.currentBasketId);
-      voltmx.application.showLoadingScreen(null, 'Deleting cart...', constants.LOADING_SCREEN_POSITION_FULL_SCREEN, true, false, {});
+      voltmx.application.showLoadingScreen('sknLoadingScreen', 'Working...', constants.LOADING_SCREEN_POSITION_FULL_SCREEN, true, false, {});
       const dominoBasketService = VMXFoundry.getIntegrationService('DominoBasketService');
       const promises = [];
       currentBasket.articles.forEach((article) => {
@@ -180,15 +183,15 @@ define(function() {
             new voltmx.mvc.Navigation('frmCartList').navigate();
           }).catch((err) => {
             voltmx.application.dismissLoadingScreen();
-            alert(JSON.stringify(err));
+            this.view.popupAlert.show('Unable to delete cart.');
           });
         }).catch((err) => {
           voltmx.application.dismissLoadingScreen();
-          alert('Unable to delete cart.');
+          this.view.popupAlert.show('Unable to delete cart.');
         });
       }).catch((err) => {
         voltmx.application.dismissLoadingScreen();
-        alert('Unable to delete cart.');
+        this.view.popupAlert.show('Unable to delete cart.');
       });
     }
   };

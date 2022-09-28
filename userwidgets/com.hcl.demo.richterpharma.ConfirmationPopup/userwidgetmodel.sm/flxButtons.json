@@ -35,8 +35,8 @@
     "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
-        "lblDelete",
-        "lblCancel"
+        "flxDelete",
+        "flxCancel"
     ],
     "clipbounds": true,
     "containerweight": 100,

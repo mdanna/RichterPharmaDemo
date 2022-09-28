@@ -4,6 +4,10 @@ define(function() {
     constructor: function(baseConfig, layoutConfig, pspConfig) {
       this.view.preShow = () => {
         if(!this.initDone){
+          const popupAlert = this.view.popupAlert;
+          eventManager.subscribe(globals.EVT_SCAN_ERROR, (message) => {
+            popupAlert.show(message);
+          });
           this.view.scanHeader.onClickLeft = () => this.goBack();
 
           this.view.barcodeqrscanner.afterScan = (text) => {
@@ -36,23 +40,21 @@ define(function() {
                   }).then(() => {
                     this.goBack();
                   }).catch((err) => {
-                    alert('Unable to save the changes.');
+                    this.view.popupAlert.show('Unable to save the changes.');
                     currentBasket.articles.forEach((basketArticle) => {
                       if(basketArticle.basketItemID === articleId){
                         basketArticle.basketItemCount--;
                       } 
                     });
-                    this.goBack();
                   });
 
                 }).catch((err) => {
-                  alert('Unable to save the changes.');
+                  this.view.popupAlert.show('Unable to save the changes.');
                   currentBasket.articles.forEach((basketArticle) => {
                     if(basketArticle.basketItemID === articleId){
                       basketArticle.basketItemCount--;
                     } 
                   });
-                  this.goBack();
                 });
               } else {  
                 promiseUtils.promisifyOperation(dominoBasketService, 'AddArticleToBasket', null, {
@@ -65,13 +67,11 @@ define(function() {
                   });
                   this.goBack();
                 }).catch((err) => {
-                  alert('Unable to save the changes.');
-                  this.goBack();
+                  this.view.popupAlert.show('Unable to save the changes.');
                 });
               }
             } else {
-              alert(`article ${text} not found`);
-              this.goBack();
+              this.view.popupAlert.show(`No article having barcode ${text} was found.`);
             }
 
           };

@@ -31,9 +31,8 @@
         }
     },
     "canUpdateUI": true,
-    "canvasWidth": 1200,
     "children": [
-        "CartListForm"
+        "SimpleAlert"
     ],
     "containerweight": 100,
     "currentLocale": "default",
@@ -49,7 +48,7 @@
     },
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "uc93d6f187e9419eb287685f298812b7",
+    "kuid": "u79147b5c1b9448f9edb46ae231711fa",
     "layouttype": 2,
     "masterType": 1,
     "name": "kony.ui.Form2",
