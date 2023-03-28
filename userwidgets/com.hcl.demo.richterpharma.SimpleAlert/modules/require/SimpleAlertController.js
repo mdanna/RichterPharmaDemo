@@ -18,12 +18,14 @@ define(function() {
         }
       };
     },
-    
+
     initGettersSetters(){},
 
     show(message){
-      this.view.lblMessage.text = message;
-      this.view.isVisible = true;
+      if(this.view){
+        this.view.lblMessage.text = message;
+        this.view.isVisible = true;
+      }
     }
   };
 });

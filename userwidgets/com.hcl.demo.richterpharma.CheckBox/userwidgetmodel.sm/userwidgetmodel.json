@@ -39,6 +39,10 @@
     "device": "iPhone13",
     "displayorientation": 3,
     "enabledforidletimeout": false,
+    "globalUserWidgetRefs": [
+        "u1f1435758b54f5cbaa0b945b87af026",
+        "uf96c4159e734040a799eedb5a3a4034"
+    ],
     "id": "userwidgetmodel",
     "info": null,
     "initdone": false,

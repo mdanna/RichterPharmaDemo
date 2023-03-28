@@ -41,7 +41,7 @@
         "width": 640
     },
     "currentLocale": "default",
-    "device": "iPhone13",
+    "device": "iPadMini",
     "displayorientation": 3,
     "enabledforidletimeout": false,
     "id": "userwidgetmodel",
@@ -62,8 +62,8 @@
         "formTransition": "None"
     },
     "paddinginpixel": false,
-    "platform": "iphone",
-    "prevDevice": "iPhone13",
+    "platform": "ipad",
+    "prevDevice": "iPad2",
     "prevPlatform": "iphone",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

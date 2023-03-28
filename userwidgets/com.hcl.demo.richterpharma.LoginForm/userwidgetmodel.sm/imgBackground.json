@@ -4,11 +4,7 @@
     "_base64_": null,
     "_height_": {
         "type": "string",
-        "value": "900dp"
-    },
-    "_left_": {
-        "type": "string",
-        "value": "0dp"
+        "value": "1000dp"
     },
     "_margin_": [
         0,
@@ -24,10 +20,6 @@
     ],
     "_skin_": "sea4d27b963d444eaa8cb1ffacd9d370",
     "_src_": "photo_login_bg_cropped.png",
-    "_top_": {
-        "type": "string",
-        "value": "0dp"
-    },
     "_width_": {
         "type": "string",
         "value": "1300dp"

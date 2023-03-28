@@ -271,12 +271,12 @@
     },
     "createdVizVersion": "9.2.54",
     "createdgaversion": "9.2.54",
-    "currentgaversion": "9.2.55",
+    "currentgaversion": "9.2.59",
     "deeplinkkey": "None",
     "defaultZIndex": "1",
     "defaultlocalekey": "ar",
     "defaulttheme": "defaultTheme",
-    "desktopstartupformkey": "fdf50eaa44724fc1b720a4f45390968a",
+    "desktopstartupformkey": "",
     "desktopwebaligenmentoption": "left",
     "desktopwebbasefontsize": "16",
     "desktopwebfavico": "",
@@ -397,7 +397,7 @@
             "version": "1.0"
         }
     },
-    "konyVizVersion": "9.2.55",
+    "konyVizVersion": "9.2.59",
     "lastmodifiedtime": "1662629699967",
     "location": "false",
     "mangoapptitlekey": ",,,,,,",
